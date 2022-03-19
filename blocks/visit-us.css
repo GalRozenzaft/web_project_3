@@ -6,7 +6,6 @@
   grid-row: 1;
   grid-column: 1;
   z-index: 2;
-  
 }
 
 .visit-us__title {
@@ -25,6 +24,21 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visit-us__address-1 {
+  margin: 0;
+}
+
+.visit-us__address-2 {
+  margin: 0;
+}
+
+.visit-us__address-3 {
+  margin: 0;
 }
 
 .visit-us__button {
