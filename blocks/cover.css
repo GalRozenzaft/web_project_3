@@ -1,0 +1,14 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3.75%;
+  display: grid;
+}
+
+.cover__background-image {
+width: 100%;
+object-fit: contain;
+grid-row: 1;
+grid-column: 1;
+z-index: 1;
+}
