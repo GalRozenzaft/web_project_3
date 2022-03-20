@@ -155,19 +155,22 @@
   }
 
   .place__title {
-    font-weight: 900;
-    font-size: 42px;
-    line-height: 46px;
+    font-size: 32px;
+    line-height: 35px;
   }
 
-  /* .place__artist {
+  .place__artist {
   }
 
   .place__artist-header {
+    font-size: 12px;
+    line-height: 12px;
   }
 
   .place__artist-name {
-  } */
+    font-size: 18px;
+    line-height: 22px;
+  }
 
   .place__image {
     width: 44.27vw;
