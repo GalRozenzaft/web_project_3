@@ -124,7 +124,6 @@
   .place__artist-name {
   } */
 
-
   .place__paragraphs {
     grid-column: 2;
     grid-row: 2;
@@ -138,18 +137,19 @@
 
   .place__image {
     width: 44.27vw;
-object-fit: contain;
-margin-bottom: 48px;
-
+    object-fit: contain;
+    margin-bottom: 48px;
   }
-  
+
   .place__buy-button {
   }
-
+}
 @media screen and (max-width: 320px) {
   .place {
     margin: 0 3.125vw;
     width: 93.75vw;
+    display: flex;
+    flex-direction: column;
     grid-column-gap: 3.646vw;
     margin-bottom: 88px;
   }
@@ -187,15 +187,14 @@ margin-bottom: 48px;
     margin-bottom: 25px;
   }
 
-  
   .place__image {
     width: 44.27vw;
-object-fit: contain;
-margin-bottom: 48px;
-
+    object-fit: contain;
+    margin-bottom: 48px;
   }
-  
+
   .place__buy-button {
     width: 288px;
     height: 48px;
   }
+}

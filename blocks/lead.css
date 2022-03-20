@@ -40,25 +40,41 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .lead {
     width: 100vw;
-
   }
-  
+
   .lead__title {
     width: 100vw;
-
   }
-  
+
   .lead__subtitle {
     width: 100vw;
-
   }
-  
+
   .lead__image {
     width: 100vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    margin-top: 50.54px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
 
   }
 
+  .lead__image {
+    margin-top: 40px;
+  }
 }

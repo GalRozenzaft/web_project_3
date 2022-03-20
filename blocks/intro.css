@@ -76,3 +76,33 @@
     width: 93.75vw;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: 93.75vw;
+    margin-top: 40px;
+  }
+  .intro__title {
+    width: 93.75vw;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  .intro__quote {
+    width: 93.75vw;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 40px;
+  }
+
+  .intro__quote-author {
+    width: 93.75vw;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .intro__description {
+    width: 93.75vw;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
