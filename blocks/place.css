@@ -6,6 +6,7 @@
   grid-column-gap: 3.125vw;
   grid-row-gap: 48px;
   margin-bottom: 80px;
+  width: 76.875vw;
 }
 
 .place__title {
@@ -48,7 +49,8 @@
 .place__image {
   width: 35.94vw;
   height: auto;
-  margin-bottom: 48px;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .place__buy-button {
@@ -62,11 +64,18 @@
   font-size: 18px;
   line-height: 21.78px;
   grid-column: 1;
+  grid-row: 3;
+}
+
+.place__buy-button:hover {
+  cursor: pointer;
+  background-color: #0063d2;
+  transition: background-color 0.1s ease-in;
 }
 
 .place__paragraphs {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: span 2;
   margin: 0;
   color: #ffffff;
   font-weight: 400;
@@ -111,8 +120,8 @@
 
   .place__title {
     font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 42px;
+    line-height: 46px;
   }
 
   /* .place__artist {
@@ -125,8 +134,6 @@
   } */
 
   .place__paragraphs {
-    grid-column: 2;
-    grid-row: 2;
     margin: 0;
     color: #ffffff;
     font-weight: 400;
@@ -136,41 +143,43 @@
   }
 
   .place__image {
+    grid-column: 1;
+    grid-row: 2;
     width: 44.27vw;
     object-fit: contain;
     margin-bottom: 48px;
   }
 
   .place__buy-button {
+    grid-column: 1;
+    grid-row: 3;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
-    margin: 0 3.125vw;
-    width: 93.75vw;
+    margin: 0;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-bottom: 88px;
   }
 
   .place__title {
+    margin: 0 5vw;
     font-size: 32px;
     line-height: 35px;
   }
 
-  .place__artist {
-  }
-
   .place__artist-header {
+    margin: 0 5vw;
     font-size: 12px;
     line-height: 12px;
   }
 
   .place__artist-name {
+    margin: 12px 5vw 0 5vw;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 12px;
   }
 
   .place__image {
@@ -180,7 +189,7 @@
   }
 
   .place__paragraphs {
-    margin: 0;
+    margin: 0 5vw;
     color: #ffffff;
     font-weight: 400;
     font-size: 16px;
@@ -188,8 +197,17 @@
     margin-bottom: 25px;
   }
 
+  .place__paragraph-2 {
+    margin: 0;
+  }
+
+  .place__paragraph-3 {
+    margin: 0;
+  }
+
   .place__buy-button {
-    width: 288px;
+    width: 90vw;
     height: 48px;
+    margin-bottom: 48px;
   }
 }

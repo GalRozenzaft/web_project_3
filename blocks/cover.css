@@ -1,14 +1,40 @@
 .cover {
   display: flex;
   flex-direction: column;
-  margin: 0 3.75%;
+  margin: 0;
+  width: 96.25vw;
   display: grid;
 }
 
+/* .cover:hover {
+cursor: pointer;
+opacity: 0.5;
+  transition: opacity 0.2s ease-in;
+} */
+
 .cover__background-image {
-width: 100%;
-object-fit: contain;
-grid-row: 1;
-grid-column: 1;
-z-index: 1;
+  width: 100vw;
+  object-fit: contain;
+  grid-row: 1;
+  grid-column: 1;
+  z-index: 1;
+  opacity: 1;
+}
+
+/* .cover__background-image:hover {
+  color: #2a2c2f;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in;
+  z-index: 4;
+  cursor: pointer;
+} */
+
+@media screen and (min-width: 320px) {
+  .cover {
+    height: 254px;
+  }
+  .cover__background-image {
+    width: 100vw;
+    height: 254px;
+  }
 }
