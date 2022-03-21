@@ -9,15 +9,8 @@
 .cover:hover .cover__background-image {
   color: #2a2c2f;
   opacity: 0.2;
-  z-index: 2;
   cursor: pointer;
-}
-
-.cover:hover .cover__visit-us {
-  opacity: 1;
-  transition: none;
-  z-index: 2;
-  cursor: pointer;
+  transition: opacity .1s ease-in;
 }
 
 .cover__visit-us {
