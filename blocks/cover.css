@@ -1,6 +1,4 @@
 .cover {
-  display: flex;
-  flex-direction: column;
   margin: 0;
   width: 96.25vw;
   display: grid;
