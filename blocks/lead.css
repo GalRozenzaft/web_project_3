@@ -13,7 +13,7 @@
   padding: 0;
   font-size: 96px;
   font-weight: 900;
-  line-height: 100px;
+  line-height: 1.04;
   text-align: center;
   color: #ffffff;
   width: 61.95vw;
@@ -45,11 +45,13 @@
   }
 
   .lead__title {
-    width: 100vw;
+    font-size: calc(48px + 48 * ((100vw - 321px) / 680));
+    width: 93.75vw;
   }
 
   .lead__subtitle {
-    width: 100vw;
+    font-size: calc(22px + 8 * ((100vw - 321px) / 680));
+    width: 93.75vw;
   }
 
   .lead__image {
@@ -72,7 +74,7 @@
     font-size: 16px;
     line-height: 1.25;
     margin-top: 16px;
-    width: 100vw;
+    width: 90vw;
   }
 
   .lead__image {

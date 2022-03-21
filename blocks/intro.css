@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: flex-start;
   width: 76.875vw;
-
   object-fit: contain;
   margin-top: 92px;
 }
@@ -15,7 +14,7 @@
   color: #ffffff;
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 1.074;
   text-align: left;
   width: 61.3vw;
   object-fit: contain;
@@ -27,7 +26,7 @@
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.4;
   text-align: left;
   width: 53.9vw;
   object-fit: contain;
@@ -39,7 +38,7 @@
   color: #ffffff;
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.4;
   text-align: right;
   width: 53.9vw;
   object-fit: contain;
@@ -52,7 +51,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26.08px;
+  line-height: 1.63;
   text-align: left;
   width: 53.9vw;
   object-fit: contain;
@@ -63,6 +62,8 @@
   }
   .intro__title {
     width: 93.75vw;
+    font-size: calc(28px + 28 * ((100vw - 321px) / 680));
+
   }
   .intro__quote {
     width: 93.75vw;
@@ -84,7 +85,7 @@
   .intro__title {
     width: 93.75vw;
     font-size: 32px;
-    line-height: 35px;
+    line-height: 1.09375;
   }
   .intro__quote {
     width: 93.75vw;
@@ -96,12 +97,12 @@
   .intro__quote-author {
     width: 93.75vw;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 1.4;
   }
 
   .intro__description {
     width: 93.75vw;
     font-size: 16px;
-    line-height: 26.08px;
+    line-height: 1.63;
   }
 }
