@@ -9,7 +9,6 @@
 .cover:hover .cover__background-image {
   color: #2a2c2f;
   opacity: 0.2;
-  /* transition: opacity 0.1s ease-in; */
   z-index: 2;
   cursor: pointer;
 }
@@ -20,7 +19,6 @@
   z-index: 2;
   cursor: pointer;
 }
-/* from here */
 
 .cover__visit-us {
   display: flex;
@@ -91,7 +89,6 @@
     line-height: 1.143;
   }
 }
-/* till here   */
 
 .cover__background-image {
   width: 100vw;
