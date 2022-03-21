@@ -6,10 +6,17 @@
   display: grid;
 }
 
-.cover:hover {
+.cover:hover .cover__background-image {
   color: #2a2c2f;
   opacity: 0.2;
-  transition: opacity 0.1s ease-in;
+  /* transition: opacity 0.1s ease-in; */
+  z-index: 2;
+  cursor: pointer;
+}
+
+.cover:hover .cover__visit-us {
+  opacity: 1;
+  transition: none;
   z-index: 2;
   cursor: pointer;
 }
@@ -25,17 +32,13 @@
   z-index: 4;
 }
 
-.cover__visit-us:hover {
-  opacity: 1;
-  z-index: 4;
-}
-
 .cover__visit-us__title {
   margin: 0;
   color: #fffdfd;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.055;
+  z-index: 4;
 }
 
 .cover__visit-us__address {
@@ -47,6 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 4;
 }
 
 .cover__visit-us__address-1 {
@@ -72,6 +76,7 @@
   line-height: 1.21;
   border: none;
   border-radius: 3px;
+  z-index: 4;
 }
 
 @media screen and (max-width: 320px) {
