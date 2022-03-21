@@ -1,27 +1,17 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 11.5625%;
-    width: 76.875vw;
-    object-fit: contain;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 11.5625%;
+  width: 76.875vw;
+  object-fit: contain;
+  padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        margin: 0;
-        width: 100vw;
-    }
+@media screen and (max-width: 320px) {
+  .header {
+    margin: 0;
+    width: 100vw;
+  }
 }
-
-
-
-
-
-
-
-
-
-

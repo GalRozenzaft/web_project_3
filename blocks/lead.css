@@ -70,10 +70,9 @@
 
   .lead__subtitle {
     font-size: 16px;
-  line-height: 1.25;
-  margin-top: 16px;
-  width: 100vw;
-
+    line-height: 1.25;
+    margin-top: 16px;
+    width: 100vw;
   }
 
   .lead__image {
