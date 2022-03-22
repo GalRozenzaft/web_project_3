@@ -17,7 +17,7 @@
   z-index: 4;
 }
 
-.visit-us__address {
+.visit-us__addresses {
   margin: 32px 0;
   color: #ffffff;
   font-weight: 400;
@@ -29,15 +29,7 @@
   z-index: 4;
 }
 
-.visit-us__address-1 {
-  margin: 0;
-}
-
-.visit-us__address-2 {
-  margin: 0;
-}
-
-.visit-us__address-3 {
+.visit-us__address {
   margin: 0;
 }
 
