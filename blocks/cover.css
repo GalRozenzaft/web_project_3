@@ -1,6 +1,5 @@
 .cover {
-  margin: 0;
-  width: 96.25vw;
+  margin: 0 3.75%;
   display: grid;
 }
 
@@ -8,7 +7,7 @@
   color: #2a2c2f;
   opacity: 0.2;
   cursor: pointer;
-  transition: opacity .2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 @media screen and (max-width: 320px) {
@@ -25,7 +24,7 @@
 }
 
 .cover__background-image {
-  width: 100vw;
+  width: 100%;
   object-fit: contain;
   grid-row: 1;
   grid-column: 1;
