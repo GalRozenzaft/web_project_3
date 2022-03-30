@@ -13,6 +13,7 @@
   font-family: "Inter-Black", Arial, sans-serif;
   margin: 0;
   color: #ffffff;
+  font-weight: 900;
   font-size: 72px;
   line-height: 1.055;
   grid-row: 1;
@@ -33,6 +34,7 @@
   font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   color: #aaaaaa;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.21;
 }
@@ -42,6 +44,7 @@
   margin: 0;
   margin-top: 8px;
   color: #ffffff;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
 }
@@ -61,6 +64,7 @@
   border: none;
   border-radius: 5px;
   color: #ffffff;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.21;
   grid-column: 1;
@@ -83,6 +87,7 @@
   grid-row: span 2;
   margin: 0;
   color: #ffffff;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   margin-bottom: 25px;
@@ -103,6 +108,7 @@
 
   .place__title {
     font-family: "Inter-Black", Arial, sans-serif;
+    font-weight: 900;
     font-size: 42px;
     line-height: 1.095;
   }
@@ -111,6 +117,7 @@
     font-family: "Inter-Regular", Arial, sans-serif;
     margin: 0;
     color: #ffffff;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
     margin-bottom: 25px;
@@ -171,6 +178,7 @@
     font-family: "Inter-Regular", Arial, sans-serif;
     margin: 0 5vw;
     color: #ffffff;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
     margin-bottom: 25px;

@@ -21,6 +21,7 @@
   font-family: "Inter-Regular", Arial, sans-serif;
   margin: 32px 0;
   color: #ffffff;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   display: flex;
@@ -40,6 +41,7 @@
   height: 48px;
   color: #ffffff;
   background-color: #0278fe;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.21;
   border: none;
