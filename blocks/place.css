@@ -10,9 +10,9 @@
 }
 
 .place__title {
+  font-family: "Inter-Black", Arial, sans-serif;
   margin: 0;
   color: #ffffff;
-  font-weight: 900;
   font-size: 72px;
   line-height: 1.055;
   grid-row: 1;
@@ -30,18 +30,18 @@
 }
 
 .place__artist-header {
+  font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   color: #aaaaaa;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.21;
 }
 
 .place__artist-name {
+  font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   margin-top: 8px;
   color: #ffffff;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
 }
@@ -54,13 +54,13 @@
 }
 
 .place__buy-button {
+  font-family: "Inter-SemiBold", Arial, sans-serif;
   width: 248px;
   height: 48px;
   background-color: #0278fe;
   border: none;
   border-radius: 5px;
   color: #ffffff;
-  font-weight: 600;
   font-size: 18px;
   line-height: 1.21;
   grid-column: 1;
@@ -78,11 +78,11 @@
 }
 
 .place__paragraphs {
+  font-family: "Inter-Regular", Arial, sans-serif;
   grid-column: 2;
   grid-row: span 2;
   margin: 0;
   color: #ffffff;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
   margin-bottom: 25px;
@@ -102,15 +102,15 @@
   }
 
   .place__title {
-    font-weight: 900;
+    font-family: "Inter-Black", Arial, sans-serif;
     font-size: 42px;
     line-height: 1.095;
   }
 
   .place__paragraphs {
+    font-family: "Inter-Regular", Arial, sans-serif;
     margin: 0;
     color: #ffffff;
-    font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
     margin-bottom: 25px;
@@ -168,9 +168,9 @@
   }
 
   .place__paragraphs {
+    font-family: "Inter-Regular", Arial, sans-serif;
     margin: 0 5vw;
     color: #ffffff;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
     margin-bottom: 25px;

@@ -9,18 +9,18 @@
 }
 
 .visit-us__title {
+  font-family: "Inter-Black", Arial, sans-serif;
   margin: 0;
   color: #fffdfd;
-  font-weight: 900;
   font-size: 72px;
   line-height: 1.055;
   z-index: 4;
 }
 
 .visit-us__addresses {
+  font-family: "Inter-Regular", Arial, sans-serif;
   margin: 32px 0;
   color: #ffffff;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   display: flex;
@@ -34,12 +34,12 @@
 }
 
 .visit-us__button {
+  font-family: "Inter-SemiBold", Arial, sans-serif;
   margin: 0;
   width: 137px;
   height: 48px;
   color: #ffffff;
   background-color: #0278fe;
-  font-weight: 600;
   font-size: 18px;
   line-height: 1.21;
   border: none;

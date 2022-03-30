@@ -9,10 +9,10 @@
 }
 
 .lead__title {
+  font-family: "Inter-Black", Arial, sans-serif;
   margin: 0;
   padding: 0;
   font-size: 96px;
-  font-weight: 900;
   line-height: 1.04;
   text-align: center;
   color: #ffffff;
@@ -21,12 +21,12 @@
 }
 
 .lead__subtitle {
+  font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   padding: 0;
   margin-top: 32px;
   width: 56.25vw;
   object-fit: contain;
-  font-weight: 400;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;

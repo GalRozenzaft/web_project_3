@@ -5,9 +5,9 @@
 }
 
 .footer__paragraph {
+  font-family: "Inter-Regular", Arial, sans-serif;
   margin: 92px 0 24px 0;
   color: #ffffff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
 }
