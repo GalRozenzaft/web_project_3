@@ -12,13 +12,13 @@
   font-size: 14px;
   line-height: 1.143;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .footer__paragraph {
     margin: 88px 0 24px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .footer__paragraph {
     margin: 64px 0 24px 0;
   }

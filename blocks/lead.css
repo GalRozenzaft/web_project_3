@@ -41,27 +41,27 @@
   margin-top: 64px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .lead {
-    width: 100vw;
+    width: 100%;
   }
 
   .lead__title {
-    font-size: calc(48px + 48 * ((100vw - 321px) / 680));
+    font-size: 96px;
     width: 93.75vw;
   }
 
   .lead__subtitle {
-    font-size: calc(22px + 8 * ((100vw - 321px) / 680));
+    font-size: 30px;
     width: 93.75vw;
   }
 
   .lead__image {
-    width: 100vw;
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .lead {
     margin-top: 50.54px;
   }

@@ -7,60 +7,54 @@
   width: 76.875vw;
   object-fit: contain;
   margin-top: 92px;
+  color: #ffffff;
 }
 
 .intro__title {
   font-family: "Inter-Black", Arial, sans-serif;
   margin: 0;
-  color: #ffffff;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.074;
   text-align: left;
   width: 61.3vw;
-  object-fit: contain;
 }
 
 .intro__quote {
   font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   margin-top: 40px;
-  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   text-align: left;
   width: 53.9vw;
-  object-fit: contain;
 }
 
 .intro__quote-author {
   font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   margin-top: 10px;
-  color: #ffffff;
   font-weight: 400;
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
   width: 53.9vw;
-  object-fit: contain;
 }
 
 .intro__description {
   font-family: "Inter-Regular", Arial, sans-serif;
   margin: 0;
   margin-top: 32px;
-  color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   font-style: normal;
   line-height: 1.63;
   text-align: left;
   width: 53.9vw;
-  object-fit: contain;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1280px) {
   .intro {
     width: 93.75vw;
   }
@@ -81,7 +75,8 @@
     width: 93.75vw;
   }
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 768px) {
   .intro {
     width: 93.75vw;
     margin-top: 40px;
