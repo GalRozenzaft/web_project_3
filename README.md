@@ -8,7 +8,11 @@
 
 **Intro**
 
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This project was a learning experience. It's purpose was to practice, improve and perfect my new skills, as well as the "old" ones. In this Project the emphasis was on:
+* working with design and specifications: Getting to know and work with Figma and designers.
+* Creating a responsive web design: for desktop, tablets and mobile.
+* Using Grid layout and learning its basic concepts.
+I've learned a lot of new things, practiced my already somewhat purchased skills and mostly - improved my self-studying skills.
 
 **Figma**
 
@@ -16,6 +20,6 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+[Here is a nice picture from the project for you to enjoy for the first or for the 10 thousand time :)](./images/place__image-2.png)
 
-Good luck and have fun!
+Thank you for reading, commenting and making me a better developer. have fun!

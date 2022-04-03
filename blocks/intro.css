@@ -60,7 +60,7 @@
   }
   .intro__title {
     width: 93.75vw;
-    font-size: calc(28px + 28 * ((100vw - 321px) / 680));
+    font-size: 54px;
 
   }
   .intro__quote {
