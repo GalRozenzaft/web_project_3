@@ -10,7 +10,7 @@
 .photo-grid__items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 16px;
+  gap: 16px;
 }
 
 .photo-grid__item {

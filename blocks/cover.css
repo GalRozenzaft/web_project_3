@@ -1,5 +1,7 @@
 .cover {
   margin: 0 3.75%;
+  width: 1184px;
+  height: 740px;
   background-image: url("../images/cover__background-image.png");
   background-size: auto;
   background-repeat: no-repeat;
@@ -14,35 +16,15 @@
   transition: opacity 0.2s ease-in;
 }
 
-.cover__visit-us__title {
-  font-size: 72px;
-  line-height: 1.055;
-}
-
-.cover__visit-us__address {
-  margin: 16px 0;
-  font-size: 14px;
-  line-height: 1.143;
+ @media screen and (max-width: 1280px) {
+   .cover{
+  margin: 0;
+    width: 100%;
+ }
 }
 
 @media screen and (max-width: 768px) {
-  .cover__visit-us__title {
-    font-size: 32px;
-    line-height: 1.09375;
-  }
-
-  .cover__visit-us__address {
-    margin: 16px 0;
-    font-size: 14px;
-    line-height: 1.143;
-  }
-
   .cover {
     height: 254px;
-  }
-  .cover__background-image {
-    width: 100vw;
-    height: 254px;
-    object-fit: none;
   }
 }

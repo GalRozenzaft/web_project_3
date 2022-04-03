@@ -9,7 +9,7 @@
 }
 
 .lead__title {
-  font-family: "Inter-Black", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   padding: 0;
   font-weight: 900;
@@ -22,7 +22,7 @@
 }
 
 .lead__subtitle {
-  font-family: "Inter-Regular", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   padding: 0;
   margin-top: 32px;

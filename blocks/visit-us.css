@@ -3,13 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  grid-row: 1;
-  grid-column: 1;
-  z-index: 4;
 }
 
 .visit-us__title {
-  font-family: "Inter-Black", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   color: #fffdfd;
   font-size: 72px;
@@ -18,7 +15,7 @@
 }
 
 .visit-us__addresses {
-  font-family: "Inter-Regular", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 32px 0;
   color: #ffffff;
   font-weight: 400;
@@ -35,7 +32,7 @@
 }
 
 .visit-us__button {
-  font-family: "Inter-SemiBold", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   width: 137px;
   height: 48px;
@@ -47,4 +44,26 @@
   border: none;
   border-radius: 3px;
   z-index: 4;
+}
+
+.visit-us__button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .visit-us__addresses {
+    margin: 16px 0;
+  }
+
+  .visit-us__title {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.09375;
+  }
+
+  .visit-us__address {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.143;
+  }
 }

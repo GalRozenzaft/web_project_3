@@ -3,14 +3,14 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1.052fr;
-  grid-column-gap: 3.125vw;
+  column-gap: 3.125vw;
   grid-row-gap: 48px;
   margin-bottom: 80px;
   width: 76.875vw;
 }
 
 .place__title {
-  font-family: "Inter-Black", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   color: #ffffff;
   font-weight: 900;
@@ -31,7 +31,7 @@
 }
 
 .place__artist-header {
-  font-family: "Inter-Regular", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   color: #aaaaaa;
   font-weight: 400;
@@ -40,7 +40,7 @@
 }
 
 .place__artist-name {
-  font-family: "Inter-Regular", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 0;
   margin-top: 8px;
   color: #ffffff;
@@ -57,7 +57,7 @@
 }
 
 .place__buy-button {
-  font-family: "Inter-SemiBold", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   width: 248px;
   height: 48px;
   background-color: #0278fe;
@@ -82,7 +82,7 @@
 }
 
 .place__paragraphs {
-  font-family: "Inter-Regular", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   grid-column: 2;
   grid-row: span 2;
   margin: 0;
@@ -107,14 +107,14 @@
   }
 
   .place__title {
-    font-family: "Inter-Black", Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     font-weight: 900;
     font-size: 42px;
     line-height: 1.095;
   }
 
   .place__paragraphs {
-    font-family: "Inter-Regular", Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     margin: 0;
     color: #ffffff;
     font-weight: 400;
@@ -175,7 +175,7 @@
   }
 
   .place__paragraphs {
-    font-family: "Inter-Regular", Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     margin: 0 5vw;
     color: #ffffff;
     font-weight: 400;
@@ -196,5 +196,6 @@
     width: 90vw;
     height: 48px;
     margin-bottom: 48px;
+    
   }
 }
