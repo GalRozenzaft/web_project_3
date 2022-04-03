@@ -4,9 +4,13 @@
   display: grid;
   grid-template-columns: 1fr 1.052fr;
   column-gap: 3.125vw;
-  grid-row-gap: 48px;
+  row-gap: 48px;
   margin-bottom: 80px;
   width: 76.875vw;
+}
+
+.place:last-child {
+  margin-bottom: 0;
 }
 
 .place__title {
@@ -37,6 +41,8 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.21;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .place__artist-name {
@@ -98,11 +104,15 @@
   margin-bottom: 25px;
 }
 
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1280px) {
   .place {
     margin: 0 3.125vw;
     width: 93.75vw;
-    grid-column-gap: 3.646vw;
+    column-gap: 3.646vw;
     margin-bottom: 88px;
   }
 
@@ -129,10 +139,6 @@
     width: 44.27vw;
     object-fit: contain;
     margin-bottom: 48px;
-  }
-
-  .place__a-buy-button {
-    text-align: center;
   }
 
   .place__buy-button {
@@ -188,14 +194,8 @@
     margin: 0;
   }
 
-  .place__a-buy-button {
-    text-align: center;
-  }
-
   .place__buy-button {
+    margin: 0 4.17vw 48px 4.17vw;
     width: 90vw;
-    height: 48px;
-    margin-bottom: 48px;
-    
   }
 }

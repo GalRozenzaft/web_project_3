@@ -1,9 +1,14 @@
 .visit-us {
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
+
+
 
 .visit-us__title {
   font-family: "Inter", Arial, sans-serif;
@@ -11,7 +16,6 @@
   color: #fffdfd;
   font-size: 72px;
   line-height: 1.055;
-  z-index: 4;
 }
 
 .visit-us__addresses {
@@ -24,7 +28,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 4;
 }
 
 .visit-us__address {

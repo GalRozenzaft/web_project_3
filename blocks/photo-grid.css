@@ -40,6 +40,5 @@
 
   .photo-grid__item {
     width: calc(90vw);
-    object-fit: contain;
   }
 }
