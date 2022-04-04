@@ -7,6 +7,7 @@
   row-gap: 48px;
   margin-bottom: 80px;
   width: 76.875vw;
+  max-width: 984px;
 }
 
 .place:last-child {
@@ -24,6 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  max-width: 460px;
 }
 
 .place__artist {
@@ -32,6 +34,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  max-width: 546px;
 }
 
 .place__artist-header {
@@ -60,6 +63,7 @@
   height: auto;
   grid-column: 1;
   grid-row: 2;
+  max-width: 460px;
 }
 
 .place__buy-button {
@@ -97,6 +101,7 @@
   font-size: 18px;
   line-height: 1.63;
   margin-bottom: 25px;
+  max-width: 484px;
 }
 
 .place__paragraph {

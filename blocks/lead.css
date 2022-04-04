@@ -19,6 +19,7 @@
   color: #ffffff;
   width: 61.95vw;
   object-fit: contain;
+  max-width: 793px;
 }
 
 .lead__subtitle {
@@ -33,12 +34,14 @@
   line-height: 1.2;
   text-align: center;
   color: #ffffff;
+  max-width: 720px;
 }
 
 .lead__image {
   width: 100%;
   object-fit: contain;
   margin-top: 64px;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1280px) {

@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 34px;
+  max-width: 271px;
 }
 
 .logo__symbol {
@@ -16,6 +17,7 @@
   background-image: url(../images/logo-symbol.svg);
   background-repeat: no-repeat;
   margin-bottom: 20px;
+  max-width: 271px;
 }
 
 .logo__text {
@@ -27,4 +29,5 @@
   font-size: 20px;
   line-height: 1;
   text-align: center;
+  max-width: 271px;
 }
