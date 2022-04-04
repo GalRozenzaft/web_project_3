@@ -1,24 +1,3 @@
-/* .cover {
-  margin: 0 3.75%;
-  width: 1184px;
-  min-height: 740px;
-  position: relative;
-}
-
-.cover::before {
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  background-image: url("../images/cover__background-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-} */
-
 .cover {
   margin: 0 3.75%;
   width: 1184px;
