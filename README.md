@@ -13,6 +13,7 @@ This project was a learning experience. It's purpose was to practice, improve an
 * Creating a responsive web design: for desktop, tablets and mobile.
 * Using Grid layout and learning its basic concepts.
 I've learned a lot of new things, practiced my already somewhat purchased skills and mostly - improved my self-studying skills.
+There is a link to the page (https://galrozenzaft.github.io/web_project_3/)
 
 **Figma**
 
