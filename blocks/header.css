@@ -7,11 +7,15 @@
   object-fit: contain;
   padding: 0;
   max-width: 1280px;
+  padding-top: 34px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    margin: 0;
+    margin: 0 auto;
+    padding-top: 20px;
     width: 100vw;
+    max-width: 200px;
+    max-height: 51.46px;
   }
 }

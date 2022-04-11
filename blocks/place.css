@@ -158,12 +158,12 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 0;
     margin-bottom: 48px;
   }
 
   .place__title {
-    margin: 0 5vw;
+    margin: 0 5vw 30px 5vw;
     font-size: 32px;
     line-height: 1.09375;
   }
@@ -175,7 +175,7 @@
   }
 
   .place__artist-name {
-    margin: 12px 5vw 0 5vw;
+    margin: 12px 5vw 30px 5vw;
     font-size: 18px;
     line-height: 1.22;
   }
@@ -184,6 +184,7 @@
     width: 100vw;
     object-fit: contain;
     margin-bottom: 32px;
+    max-width: 768px;
   }
 
   .place__paragraphs {
@@ -193,7 +194,11 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    max-width: 691.2px;
   }
 
   .place__paragraph {
@@ -201,7 +206,7 @@
   }
 
   .place__buy-button {
-    margin: 0 4.17vw 48px 4.17vw;
+    margin: 0 4.17vw 0 4.17vw;
     width: 90vw;
   }
 }

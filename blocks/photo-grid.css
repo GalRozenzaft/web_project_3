@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   margin: 0 3.75%;
-  width: 100%;
   margin-bottom: 92px;
   margin-top: 118px;
   max-width: 1184px;
@@ -26,16 +25,18 @@
 @media screen and (max-width: 1280px) {
   .photo-grid__items {
     grid-template-columns: repeat(2, 1fr);
+    width: 93.75vw;
   }
 
   .photo-grid__item {
     width: calc((92.5vw - 48px) / 2);
+    min-width: 45.83vw;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    margin-bottom: 90px;
+    margin: 90px 5vw 64px 5vw;
   }
 
   .photo-grid__items {
@@ -44,5 +45,6 @@
 
   .photo-grid__item {
     width: calc(90vw);
+    max-width: 691.2px;
   }
 }

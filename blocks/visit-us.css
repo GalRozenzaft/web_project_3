@@ -54,6 +54,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .visit-us {
+    min-height: 254px;
+  }
   .visit-us__addresses {
     margin: 16px 0;
   }

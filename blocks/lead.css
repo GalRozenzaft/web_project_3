@@ -47,11 +47,13 @@
 @media screen and (max-width: 1280px) {
   .lead {
     width: 100%;
+    margin-top: 88px;
   }
 
   .lead__title {
     font-size: 96px;
     width: 93.75vw;
+    max-width: 720px;
   }
 
   .lead__subtitle {
@@ -61,6 +63,9 @@
 
   .lead__image {
     width: 100%;
+    max-width: 1280px;
+    margin-top: 36px;
+
   }
 }
 
@@ -73,6 +78,7 @@
     font-size: 40px;
     line-height: 1.1;
     width: 90vw;
+    max-width: 691.2px;
   }
 
   .lead__subtitle {

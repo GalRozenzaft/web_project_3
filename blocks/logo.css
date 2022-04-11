@@ -31,3 +31,24 @@
   text-align: center;
   max-width: 271px;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    max-height: 51.46px;
+    width: 62.5vw;
+    margin: 0;
+  }
+  .logo__symbol {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 51.46px;
+    background-size: 200px 51.46px;
+    background-image: url(../images/logo-320.png);
+  }
+  
+  .logo__text {
+    display: none;
+  }
+
+}
