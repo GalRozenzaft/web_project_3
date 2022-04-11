@@ -59,7 +59,7 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
   .intro {
     width: 98.95vw;
   }
@@ -80,16 +80,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .intro {
     margin-top: 40px;
     width: 90vw;
-    max-width: 691.2px;
+    max-width: 600px;
   }
   .intro__title {
     font-size: 32px;
     line-height: 1.09375;
     width: 90vw;
+  max-width: 600px;
   }
   .intro__quote {
     font-size: 24px;

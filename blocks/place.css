@@ -113,7 +113,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
   .place {
     margin: 0 3.125vw;
     width: 93.75vw;
@@ -152,7 +152,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .place {
     margin: 0;
     width: 100vw;
@@ -184,7 +184,7 @@
     width: 100vw;
     object-fit: contain;
     margin-bottom: 32px;
-    max-width: 768px;
+    max-width: 600px;
   }
 
   .place__paragraphs {

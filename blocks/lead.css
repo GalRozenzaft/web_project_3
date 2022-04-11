@@ -44,7 +44,7 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
   .lead {
     width: 100%;
     margin-top: 88px;
@@ -69,16 +69,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .lead {
     margin-top: 50.54px;
+    max-width: 288px;
   }
 
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
     width: 90vw;
-    max-width: 691.2px;
+    max-width: 288px;
   }
 
   .lead__subtitle {
@@ -86,10 +87,12 @@
     line-height: 1.25;
     margin-top: 16px;
     width: 90vw;
+    max-width: 288px;
   }
 
   .lead__image {
     margin-top: 40px;
-    width: 100vw;
+    width: 100%;
+    max-width: 600px;
   }
 }
