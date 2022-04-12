@@ -102,11 +102,13 @@
   line-height: 1.63;
   margin-bottom: 25px;
   max-width: 484px;
+  /* min-width: 330px; */
 }
 
 .place__paragraph {
   margin: 0;
   margin-bottom: 25px;
+  /* min-width: 330px; */
 }
 
 .place__paragraph:last-child {
@@ -133,7 +135,7 @@
     margin: 0;
     color: #ffffff;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.63;
     margin-bottom: 25px;
   }

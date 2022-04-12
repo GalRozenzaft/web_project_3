@@ -23,6 +23,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .photo-grid {
+    margin-top: 88px;
+  }
   .photo-grid__items {
     grid-template-columns: repeat(2, 1fr);
     width: 93.75vw;
@@ -41,6 +44,7 @@
 
   .photo-grid__items {
     grid-template-columns: repeat(1, 1fr);
+    width: 90vw;
   }
 
   .photo-grid__item {

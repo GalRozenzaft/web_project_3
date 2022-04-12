@@ -61,22 +61,22 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 98.95vw;
+    width: 93.75vw;
   }
   .intro__title {
-    width: 98.95vw;
+    width: 93.75vw;
     font-size: 54px;
   }
   .intro__quote {
-    width: 98.95vw;
+    width: 93.75vw;
   }
 
   .intro__quote-author {
-    width: 98.95vw;
+    width: 93.75vw;
   }
 
   .intro__description {
-    width: 98.95vw;
+    width: 93.75vw;
   }
 }
 

@@ -1,7 +1,7 @@
 .cover {
   margin: 0 3.75%;
   width: 1184px;
-  width: 100%;
+  width: 100vw;
   min-height: 740px;
   position: relative;
   display: flex;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin: 0 0 82px 0;
+    margin: 0;
     width: 100%;
   }
 }

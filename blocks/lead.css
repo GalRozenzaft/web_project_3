@@ -72,7 +72,8 @@
 @media screen and (max-width: 600px) {
   .lead {
     margin-top: 50.54px;
-    max-width: 288px;
+    max-width: 600px;
+    width: 100vw;
   }
 
   .lead__title {
@@ -92,7 +93,7 @@
 
   .lead__image {
     margin-top: 40px;
-    width: 100%;
+    width: 100vw;
     max-width: 600px;
   }
 }
