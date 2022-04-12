@@ -30,7 +30,7 @@
   font-size: 24px;
   line-height: 1.4;
   text-align: left;
-  width: 61.33vw;
+  width: 53.9vw;
   max-width: 690px;
 }
 
@@ -42,7 +42,7 @@
   font-size: 24px;
   line-height: 1.4;
   text-align: right;
-  width: 61.33vw;
+  width: 53.9vw;
   max-width: 690px;
 }
 
@@ -55,28 +55,33 @@
   font-style: normal;
   line-height: 1.63;
   text-align: left;
-  width: 61.33vw;
+  width: 53.9vw;
   max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
     width: 93.75vw;
+    max-width: 720px;
   }
   .intro__title {
     width: 93.75vw;
     font-size: 54px;
+    max-width: 720px;
   }
   .intro__quote {
     width: 93.75vw;
+    max-width: 720px;
   }
 
   .intro__quote-author {
     width: 93.75vw;
+    max-width: 720px;
   }
 
   .intro__description {
     width: 93.75vw;
+    max-width: 720px;
   }
 }
 
@@ -90,7 +95,7 @@
     font-size: 32px;
     line-height: 1.09375;
     width: 90vw;
-  max-width: 600px;
+    max-width: 600px;
   }
   .intro__quote {
     font-size: 24px;

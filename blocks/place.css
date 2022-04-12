@@ -3,6 +3,8 @@
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1.052fr;
+  /* grid-template-rows: 0fr 0fr 2fr; */
+  /* grid-auto-rows: minmax(auto); */
   column-gap: 3.125vw;
   row-gap: 48px;
   margin-bottom: 80px;
@@ -60,7 +62,7 @@
 
 .place__image {
   width: 35.94vw;
-  height: auto;
+  /* height: auto; */
   grid-column: 1;
   grid-row: 2;
   max-width: 460px;
@@ -100,7 +102,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   max-width: 484px;
   /* min-width: 330px; */
 }
@@ -117,7 +119,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    margin: 0 3.125vw;
+    margin: 0 auto;
     width: 93.75vw;
     column-gap: 3.646vw;
     margin-bottom: 72px;
@@ -137,7 +139,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
   }
 
   .place__image {
@@ -145,7 +147,6 @@
     grid-row: 2;
     width: 44.27vw;
     object-fit: contain;
-    margin-bottom: 48px;
   }
 
   .place__buy-button {
