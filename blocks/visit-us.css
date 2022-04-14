@@ -53,7 +53,7 @@
   transition: background-color 0.1s ease-in;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .visit-us {
     min-height: 254px;
   }

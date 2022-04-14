@@ -69,10 +69,10 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .lead {
     margin-top: 50.54px;
-    max-width: 600px;
+    max-width: 660px;
     width: 100vw;
   }
 
@@ -94,6 +94,6 @@
   .lead__image {
     margin-top: 40px;
     width: 100vw;
-    max-width: 600px;
+    max-width: 660px;
   }
 }

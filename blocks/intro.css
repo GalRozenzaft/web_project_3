@@ -85,17 +85,17 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .intro {
     margin-top: 40px;
     width: 90vw;
-    max-width: 600px;
+    max-width: 660px;
   }
   .intro__title {
     font-size: 32px;
     line-height: 1.09375;
     width: 90vw;
-    max-width: 600px;
+    max-width: 660px;
   }
   .intro__quote {
     font-size: 24px;

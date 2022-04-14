@@ -154,7 +154,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   .place {
     margin: 0;
     width: 100vw;
@@ -186,7 +186,7 @@
     width: 100vw;
     object-fit: contain;
     margin-bottom: 32px;
-    max-width: 600px;
+    max-width: 660px;
   }
 
   .place__paragraphs {
